@@ -1,0 +1,165 @@
+@import "./reset.css";
+@import "./variables.css";
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400&display=swap");
+
+body {
+  font-family: "Josefin Sans", verdana;
+  height: auto;
+  background: var(--gradient);
+  user-select: none;
+}
+
+/* Header */
+
+h1 {
+  color: var(--blue);
+  text-shadow: 10px 10px 20px var(--shadow);
+  font-size: 10vw;
+  padding: 2vw;
+  display: flex;
+  flex-flow: column wrap;
+  width: 50%;
+}
+span {
+  color: var(--white);
+  font-weight: lighter;
+  width: fit-content;
+  margin-left: 20%;
+}
+.Picture {
+  width: 22vw;
+  height: 22vw;
+  position: absolute;
+  top: 2vw;
+  right: 2vw;
+  background: url(../assets/img/pp.jpg) center/cover;
+  border-radius: 50%;
+  border-bottom: 3px solid var(--blue);
+  box-shadow: 6px 6px 20px var(--shadow);
+}
+.border {
+  width: 75%;
+  border-top: 1px solid var(--blue);
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+
+/* Timeline */
+
+.timelineContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 90%;
+  height: fit-content;
+  margin-left: 50%;
+  transform: translate(-50%);
+  margin-top: 5%;
+  margin-bottom: 2vh;
+}
+.bar {
+  position: absolute;
+  width: 3px;
+  height: 100%;
+  background: var(--blue);
+  border-radius: 10px;
+}
+section {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 30vw;
+  height: 20vh;
+  padding: 1.5em;
+  color: var(--white);
+  font-weight: lighter;
+  font-size: 1.2vw;
+}
+section h2 {
+  color: var(--blue);
+  font-size: 1.6vw;
+}
+.school,
+.tarbes,
+.dev {
+  margin-left: 50%;
+  border-right: 2px solid var(--blue);
+}
+.versailles,
+.maisalf {
+  margin-right: 50%;
+  border-left: 2px solid var(--blue);
+}
+
+img[src="./icons/diploma.png"],
+img[src="./icons/xp.png"] {
+  width: 5vw;
+  filter: invert(1);
+}
+
+/* Realisations */
+
+.realisations {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 90%;
+  height: fit-content;
+  margin-left: 50%;
+  transform: translate(-50%);
+  margin-top: 5%;
+}
+.realisations h2 {
+  width: 100%;
+  text-align: center;
+  font-size: 4vw;
+  color: var(--blue);
+  text-shadow: 10px 10px 20px var(--shadow);
+}
+.firstCard,
+.secondCard,
+.thirdCard {
+  text-align: center;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  padding: 1.5em;
+  width: 18em;
+  color: var(--white);
+  font-weight: lighter;
+  font-size: 1.3vw;
+}
+.realisations h4 {
+  font-size: 1.6vw;
+  font-weight: bold;
+}
+.zenifine,
+.weeat,
+.game {
+  width: 100%;
+  height: 10em;
+  border-radius: 25px;
+}
+.zenifine {
+  background: url(../assets/img/zenifine.png) center/cover;
+}
+.weeat {
+  background: url(../assets/img/weeat.png) left/cover;
+}
+.game {
+  background: url(../assets/img/game.png) center/cover;
+}
+.miniTimeline {
+  width: 3px;
+  min-height: 10vh;
+  background: var(--blue);
+  border-radius: 10px;
+  margin-left: 50%;
+  transform: translate(-50%);
+  margin-top: 5%;
+}
+
+/* Skills */

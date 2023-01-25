@@ -1,0 +1,18 @@
+/* Color variables */
+
+:root {
+  --gradient: linear-gradient(
+    135deg,
+    hsla(232, 11%, 15%, 1) 30%,
+    hsla(0, 5%, 16%, 1) 100%
+  );
+  --blue: hsl(192, 70%, 44%);
+  --white: hsl(240, 14%, 93%);
+  --orange: hsl(11, 49%, 46%);
+}
+
+/* Shadow variable */
+
+:root {
+  --shadow: #16161aa8;
+}
