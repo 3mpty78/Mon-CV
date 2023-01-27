@@ -1,0 +1,41 @@
+.skills {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: fit-content;
+  padding: 0;
+  margin: 0;
+}
+.skills h2 {
+  font-size: 2.8em;
+  text-shadow: 10px 10px 20px var(--shadow);
+  transition: 0.6s;
+}
+figure {
+  background: url(../assets/img/imageonline.png) center/cover;
+  width: 30em;
+  height: 30em;
+  border-radius: 50%;
+  box-shadow: 0 10px 20px var(--shadow);
+  transition: 0.6s;
+}
+@media screen and (max-width: 1350px) {
+  figure {
+    width: 20em;
+    height: 20em;
+  }
+}
+@media screen and (max-width: 850px) {
+  figure {
+    width: 15em;
+    height: 15em;
+  }
+}
+@media screen and (max-width: 650px) {
+  figure {
+    width: 10em;
+    height: 10em;
+  }
+}

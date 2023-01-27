@@ -1,0 +1,71 @@
+.timelineContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  height: fit-content;
+  margin-left: 50%;
+  transform: translate(-50%);
+  margin-top: 5%;
+  margin-bottom: 2vh;
+}
+.bar {
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background: var(--blue);
+  border-radius: 10px;
+  transition: 0.2s;
+}
+section {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+  height: 20vh;
+  padding: 1.5em;
+  color: var(--white);
+  font-weight: lighter;
+  font-size: 1.5em;
+  transition: 0.6s;
+}
+section h2 {
+  color: var(--blue);
+  font-size: 1.8em;
+}
+.school,
+.tarbes,
+.dev {
+  margin-left: 50%;
+  border-right: 1px solid var(--blue);
+}
+.versailles,
+.maisalf {
+  margin-right: 50%;
+  border-left: 1px solid var(--blue);
+}
+
+img[src="./icons/diploma.webp"],
+img[src="./icons/xp.webp"] {
+  width: 5vw;
+  filter: invert(1);
+}
+@media screen and (max-width: 1000px) {
+  .bar {
+    opacity: 0;
+  }
+  .school,
+  .versailles,
+  .tarbes,
+  .maisalf,
+  .dev {
+    margin: 0;
+    width: 75%;
+    border-bottom: 1px solid var(--blue);
+    font-size: 1em;
+  }
+  section h2 {
+    font-size: 1.5em;
+  }
+}
