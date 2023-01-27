@@ -7,11 +7,11 @@ const Footer = () => {
       <footer>
         <h2>Contact</h2>
         <div className="tel">
-          <a href="tel:+33659920450">
-            <img src="../../public/icons/tel.png" alt="Telephone icon" />
-          </a>
+          <a href="tel:+33659920450"></a>
         </div>
-        <div className="email"></div>
+        <div className="email">
+          <a href="mailto:aurelien.corre@outlook.fr"></a>
+        </div>
         <div className="adress"></div>
       </footer>
       ;
