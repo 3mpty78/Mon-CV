@@ -94,8 +94,8 @@ section h2 {
   border-left: 1px solid var(--blue);
 }
 
-img[src="./icons/diploma.png"],
-img[src="./icons/xp.png"] {
+img[src="./icons/diploma.webp"],
+img[src="./icons/xp.webp"] {
   width: 5vw;
   filter: invert(1);
 }

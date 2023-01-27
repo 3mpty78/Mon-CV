@@ -11,7 +11,7 @@ const Timeline = () => {
             <h4>BEP & BAC Pro</h4>
             <p>Gestion des milieux Naturels et de la Faune</p>
           </div>
-          <img src="./icons/diploma.png" alt="Icone de diplome" />
+          <img src="./icons/diploma.webp" alt="Icone de diplome" />
         </section>
         <section className="versailles">
           <div>
@@ -19,7 +19,7 @@ const Timeline = () => {
             <h4>Gendarmerie Nationale</h4>
             <p>Versailles (78)</p>
           </div>
-          <img src="./icons/xp.png" alt="Icone de diplome" />
+          <img src="./icons/xp.webp" alt="Icone de diplome" />
         </section>
         <section className="tarbes">
           <div>
@@ -27,7 +27,7 @@ const Timeline = () => {
             <h4>Armée de Terre</h4>
             <p>Tarbes (65)</p>
           </div>
-          <img src="./icons/xp.png" alt="Icone de diplome" />
+          <img src="./icons/xp.webp" alt="Icone de diplome" />
         </section>
         <section className="maisalf">
           <div>
@@ -35,7 +35,7 @@ const Timeline = () => {
             <h4>Gendarmerie Nationale</h4>
             <p>Maison-Alfort (94)</p>
           </div>
-          <img src="./icons/xp.png" alt="Icone de diplome" />
+          <img src="./icons/xp.webp" alt="Icone de diplome" />
         </section>
         <section className="dev">
           <div>
@@ -43,7 +43,7 @@ const Timeline = () => {
             <h4>Apprentissage autodidacte</h4>
             <p>HTML, CSS, JavaScript</p>
           </div>
-          <img src="./icons/xp.png" alt="Icone de diplome" />
+          <img src="./icons/xp.webp" alt="Icone de diplome" />
         </section>
       </div>
     </>
