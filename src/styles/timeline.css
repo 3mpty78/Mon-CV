@@ -23,7 +23,7 @@ section {
   align-items: center;
   justify-content: space-between;
   width: 40%;
-  height: 20vh;
+  height: fit-content;
   padding: 1.5em;
   color: var(--white);
   font-weight: lighter;
@@ -44,6 +44,9 @@ section h2 {
 .maisalf {
   margin-right: 50%;
   border-left: 1px solid var(--blue);
+}
+section p {
+  width: 100%;
 }
 
 img[src="./icons/diploma.webp"],
@@ -67,5 +70,31 @@ img[src="./icons/xp.webp"] {
   }
   section h2 {
     font-size: 1.5em;
+  }
+}
+
+/* Hovers */
+
+.timelineContainer section:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px var(--white);
+  border-radius: 25px;
+  animation: halo 2s linear infinite;
+}
+@keyframes halo {
+  0% {
+    box-shadow: 0 -10px 10px var(--low_white);
+  }
+  25% {
+    box-shadow: 10px 0 10px var(--low_white);
+  }
+  50% {
+    box-shadow: 0 10px 10px var(--low_white);
+  }
+  75% {
+    box-shadow: -10px 0 10px var(--low_white);
+  }
+  100% {
+    box-shadow: 0 -10px 10px var(--low_white);
   }
 }
