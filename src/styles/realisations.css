@@ -84,12 +84,12 @@
 .realisations .zenifine:hover,
 .realisations .weeat:hover {
   transform: scale(0.95);
-  box-shadow: 0 0 10px var(--white);
+  box-shadow: 0 0 20px var(--shadow);
   cursor: not-allowed;
   filter: grayscale(1) brightness(0.75);
 }
 .realisations .game:hover {
   transform: scale(1.1);
   cursor: pointer;
-  box-shadow: 0 0 10px var(--white);
+  box-shadow: 0 0 20px var(--shadow);
 }

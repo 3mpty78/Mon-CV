@@ -83,18 +83,25 @@ img[src="./icons/xp.webp"] {
 }
 @keyframes halo {
   0% {
-    box-shadow: 0 -10px 10px var(--low_white);
+    box-shadow: 0 -10px 10px var(--shadow);
   }
   25% {
-    box-shadow: 10px 0 10px var(--low_white);
+    box-shadow: 10px 0 10px var(--shadow);
   }
   50% {
-    box-shadow: 0 10px 10px var(--low_white);
+    box-shadow: 0 10px 10px var(--shadow);
   }
   75% {
-    box-shadow: -10px 0 10px var(--low_white);
+    box-shadow: -10px 0 10px var(--shadow);
   }
   100% {
-    box-shadow: 0 -10px 10px var(--low_white);
+    box-shadow: 0 -10px 10px var(--shadow);
   }
+}
+
+.border {
+  width: 75%;
+  border-top: 1px solid var(--blue);
+  margin-left: 50%;
+  transform: translate(-50%);
 }

@@ -16,5 +16,5 @@
 /* Shadow variable */
 
 :root {
-  --shadow: #16161aa8;
+  --shadow: hsla(240, 8%, 9%, 0.659);
 }

@@ -24,7 +24,7 @@ h2 span {
   font-weight: bold;
   color: var(--orange);
 }
-p {
+.about p {
   width: 35%;
   text-align: center;
 }
@@ -46,7 +46,7 @@ p {
     width: 15em;
     height: 25em;
   }
-  p {
+  .about p {
     width: 75%;
   }
 }
@@ -54,7 +54,7 @@ p {
   .pictureContainer {
     display: none;
   }
-  p {
+  .about p {
     width: 75%;
     font-size: 0.8em;
     transition: 0.6s;
